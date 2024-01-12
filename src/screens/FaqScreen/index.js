@@ -1,7 +1,7 @@
 import { Link } from '../../components/Link';
+import { Footer } from '../../components/patterns/Footer';
 import { Box, Text } from '../../theme/components';
 import { theme } from '../../theme/theme';
-
 
 export default function FAQScreen({ faq }) {
   return (
@@ -171,6 +171,7 @@ export default function FAQScreen({ faq }) {
 
         </Box>
         </Box>
+        <Footer />
     </Box>
   )
 }
